@@ -12,7 +12,7 @@ print(a, type(a))
 import random
 
 print(random.randrange(1, 6))
-"""
+
 x = int(1)
 y = int(2.8)
 z = int("3")
@@ -21,3 +21,9 @@ print(x)
 print(y)
 print(z)
 print(a)
+"""
+
+def myfunc(a, b):
+    return a + b
+
+print(myfunc(2, 3))
